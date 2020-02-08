@@ -20,6 +20,20 @@ body {
   color: #FEF2BF;
 }
 
+.button {
+  padding: 15px 30px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  background-color: #FEF2BF;
+  outline: none;
+  border: 6px solid #111111;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button:active {
+  transform: translateY(-2px);
+}
+
 .container {
   display: block;
   width: 50%;
